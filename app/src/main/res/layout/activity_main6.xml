@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    android:weightSum="3">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="429dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="139"
+                android:gravity="center"
+                android:text="Battle-of-Yarmouk"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity=""
+                    android:layout_weight="250"
+                    android:src="@drawable/yarmouk"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="429dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="139"
+                    android:gravity="center"
+                    android:text="The Battle of Yarmouk was a major battle between the army of the Byzantine Empire and the Muslim forces of the Rashidun Caliphate. The battle consisted of a series of engagements that lasted for six days in August 636, near the Yarmouk River, along what are now the borders of Syria–Jordan and Syria–Israel, east of the Sea of Galilee. The result of the battle was a complete Muslim victory that ended Byzantine rule in Syria. The Battle of Yarmouk is regarded as one of the most decisive battles in military history,[7][8] and it marked the first great wave of early Muslim conquests after the death of Muhammad, heralding the rapid advance of Islam into the then Christian Levant.
+
+To check the Arab advance and to recover lost territory, Emperor Heraclius had sent a massive expedition to the Levant in May 636. As the Byzantine army approached, the Arabs tactically withdrew from Syria and regrouped all their forces at the Yarmouk plains close to the Arabian Peninsula, where, they were reinforced and defeated the numerically superior Byzantine army. The battle is considered to be one of Khalid ibn al-Walid's greatest military victories and cemented his reputation as one of the greatest tacticians and cavalry commanders in history."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorPrimary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    android:weightSum="3">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="429dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="139"
+                android:gravity="center"
+                android:text="Battle-of-Karbala"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity=""
+                    android:layout_weight="250"
+                    android:src="@drawable/karbala"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="429dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="139"
+                    android:gravity="center"
+                    android:text="The Battle of Karbala was fought on 10 October 680 (10 Muharram in the year 61 AH of the Islamic calendar) between the army of the second Umayyad caliph Yazid I and a small army led by Husayn ibn Ali, the grandson of the Islamic prophet Muhammad, at Karbala, Iraq.
+
+Prior to his death, the Umayyad caliph Muawiyah I had nominated his son Yazid as his successor. Yazid's nomination was contested by the sons of a few prominent companions of Muhammad, including Husayn, son of the fourth caliph Ali, and Abd Allah ibn Zubayr, son of Zubayr ibn al-Awam. Upon Muawiyah's death in 680 CE, Yazid demanded allegiance from Husayn and other dissidents. Husayn did not give allegiance and traveled to Mecca. The people of Kufa, an Iraqi garrison town and the center of Ali's caliphate, were averse to the Syria-based Umayyad caliphs and had a long-standing attachment to the house of Ali. They proposed Husayn overthrow the Umayyads. On Husayn's way to Kufa with a retinue of about 70 men, his caravan was intercepted by a 1,000-strong army of the caliph at some distance from Kufa. He was forced to head north and encamp in the plain of Karbala on 2 October, where a larger Umayyad army of 4,000 arrived soon afterwards. Negotiations failed after the Umayyad governor Ubayd Allah ibn Ziyad refused Husayn safe passage without submitting to his authority, a condition declined by Husayn. The Battle of Karbala ensued on 10 October during which Husayn was killed along with most of his relatives and companions, while his surviving family members were taken prisoner. The battle was followed by the Second Islamic Civil War, during which the Iraqis organized two separate campaigns to avenge the death of Husayn; the first one by the Tawwabin and the other one by Mukhtar al-Thaqafi and his supporters.
+
+The Battle of Karbala galvanized the development of the pro-Alid[a] party (Shi'at Ali) into a unique religious sect with its own rituals and collective memory. It has a central place in the Shi'a history, tradition, and theology, and has frequently been recounted in Shi'a literature. For the Shi'a, Husayn's suffering and death became a symbol of sacrifice in the struggle for right against wrong, and for justice and truth against injustice and falsehood. It also provides the members of the Shi'a faith with a catalog of heroic norms. The battle is commemorated during an annual ten-day period during the Islamic month of Muharram by Shi'a, culminating on tenth day of the month, known as the Day of Ashura. On this day, Shi'a Muslims mourn, hold public processions, organize religious gathering, beat their chests and in some cases self-flagellate. Sunni Muslims likewise regard the incident as a historical tragedy; Husayn and his companions are widely regarded as martyrs by both Sunni and Shi'a Muslims."
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

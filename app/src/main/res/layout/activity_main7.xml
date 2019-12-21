@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    android:weightSum="3">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="429dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_weight="139"
+                android:gravity="center"
+                android:text="Battle-of-AL-Qadisiyyah"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity=""
+                    android:layout_weight="250"
+                    android:src="@drawable/qadisiyyah"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="429dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="139"
+                    android:gravity="center"
+                    android:text="The Battle of al-Qadisiyyah (Arabic: معركة القادسيّة‎; romanization Maʻrakatu al-Qādisiyyah; alternative spellings: Qadisiyya, Qadisiyyah, Kadisiya, Ghadesiyeh), fought in 636, was a decisive battle between the Arab Muslim army and the army of the Sasanian Empire during the first period of Muslim conquests.
+
+Although the description of this battle has had an important place in Islamic historiography, much of the material has little historical value.[9] The battle took place at an uncertain date at the small frontier town of Qadisiyyah. The larger Sasanian army was headed by the important military and political figure Rostam Farrokhzad, who died in uncertain circumstances, and a collapse of the Sasanian army led to an Arab Muslim victory.[10]
+
+The Muslim victory was key to the conquest of Asorestan (Iraq), and was followed by the major engagements at Jalula and Nahavand. The battle also saw the alleged alliance of Emperor Yazdegerd III with Byzantine emperor Heraclius, who married his granddaughter Manyanh to Yazdegerd as a symbol of alliance."
+                    android:textSize="15dp"
+                    android:textColor="@color/colorPrimary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

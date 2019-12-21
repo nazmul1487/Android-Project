@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    android:weightSum="3">
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="429dp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="top"
+               android:layout_weight="139"
+               android:gravity="center"
+               android:text="Battle-of-Badar"
+               android:textColor="@color/colorPrimary"
+               android:textSize="25dp" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="250dp"
+               android:gravity="center">
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="250dp"
+                   android:layout_gravity=""
+                   android:layout_weight="300"
+                   android:src="@drawable/badar"
+                   android:layout_margin="10dp"/>
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="429dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="top"
+                   android:layout_weight="139"
+                   android:gravity="center"
+                   android:text="The Battle of Badr (Arabic: غزوة بدر‎), fought on Tuesday, 13 March 624 CE (17 Ramadan, 2 AH in the Islamic calendar) in the Hejaz region of western Arabia (present-day Saudi Arabia), was a key battle in the early days of Islam and a turning point in Muhammad's struggle with his opponents among the Quraish[1] in Mecca. The battle has been passed down in Islamic history as a decisive victory attributable to divine intervention, or by secular sources to the strategic genius of Muhammad. It is one of the few battles specifically mentioned in the Quran. All knowledge of the battle at Badr comes from traditional Islamic accounts, both hadiths and biographies of Muhammad, recorded in written form some time after the battle. There is little evidence outside of these of the battle. There are no descriptions of the battle prior to the 9th century.[2]
+
+Prior to the battle, the Muslims and the Meccans had fought several smaller skirmishes in late 623 and early 624. Badr, however, was the first large-scale engagement between the two forces. Advancing to a strong defensive position, Muhammad's well-disciplined force broke the Meccan lines, killing several important Quraishi leaders including the Muslims' chief antagonist Abu Jahl.[3] For the early Muslims the battle was the first sign that they might eventually defeat their enemies among the Meccans. Mecca at that time was one of the richest and most powerful cities in Arabia, fielding an army three times larger than that of the Muslims.[4] The Muslim victory also signaled to the other tribes that a new power had arisen in Arabia and strengthened Muhammad's position as leader of the often fractious community in Medina.[5]"
+                   android:textSize="15dp"
+                   android:textColor="@color/colorPrimary"/>
+
+           </LinearLayout>
+
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

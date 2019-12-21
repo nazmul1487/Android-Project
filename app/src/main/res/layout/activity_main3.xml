@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    android:weightSum="3">
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               android:layout_width="429dp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="top"
+               android:layout_weight="139"
+               android:gravity="center"
+               android:text="Battle-of-Uhud"
+               android:textColor="@color/colorPrimary"
+               android:textSize="25dp" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="250dp"
+               android:gravity="center">
+
+               <ImageView
+                   android:layout_width="100dp"
+                   android:layout_height="250dp"
+                   android:layout_gravity=""
+                   android:layout_weight="250"
+                   android:src="@drawable/uhud"
+                   android:layout_margin="10dp"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="429dp"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="top"
+                   android:layout_weight="139"
+                   android:gravity="center"
+                   android:text="The Battle of Uhud (Arabic: غَزْوَة أُحُد‎ Ġazwat 'Uḥud) was a battle between the early Muslims and their Qurayshi Meccan enemies in 624 CE (AH 3)[13] in the Hejazi region of the Arabian peninsula.
+
+The battle was fought on Saturday,[14] 22 December 624 (7 Shawwal AH 3 in the Islamic calendar) at the valley located in front of Mount Uhud.[15] It occurred between a force from the Muslim community of Medina led by the Islamic prophet Muhammad, and a force led by Abu Sufyan ibn Harb from Mecca, the town from which many of the Muslims had previously emigrated.
+
+The Battle of Uhud was the second military encounter between the Meccans and the Muslims, preceded by the Battle of Badr in 623, where a small Muslim army had defeated a larger Meccan army. Marching out from Mecca towards Medina on 10 December 624 CE, the Meccans desired to avenge their losses at Badr and strike back at Muhammad and his followers. The Muslims readied for war soon afterwards and the two armies fought on the slopes and plains of Mount Uhud.
+
+Although outnumbered, the Muslims gained the early initiative and forced the Meccan lines back, thus leaving much of the Meccan camp unprotected. When the battle looked to be only one step away from a decisive Muslim victory, a serious mistake was committed by a part of the Muslim army, which altered the outcome of the battle. A breach of Muhammad's orders by the Muslim archers, who left their assigned posts to despoil the Meccan camp, allowed a surprise attack from the Meccan cavalry, led by Meccan war veteran Khalid ibn al-Walid, which brought chaos to the Muslim ranks. Many Muslims were killed, and Muhammad himself was badly injured. The Muslims had to withdraw up the slopes of Uhud. The Meccans did not pursue the Muslims further but marched back to Mecca declaring victory.
+
+For the Muslims, the battle was a significant setback. Although they had been close to routing the Meccans a second time, their breach of Muhammad's orders in favor of collecting Meccan spoils reaped severe consequences. The two armies would meet again in AD 627 at the Battle of the Trench.[16]"
+                   android:textSize="15dp"
+                   android:textColor="@color/colorPrimary"/>
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+   </ScrollView>
+
+</LinearLayout>

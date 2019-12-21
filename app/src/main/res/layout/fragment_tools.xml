@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF7A6"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text="Apps Info:"
+        android:textSize="25dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Islamic Battle application.In this application
+we try to pick up some battle which is famous in islamic history."
+        android:background="@color/cardview_shadow_end_color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Owners Info:"
+        android:textSize="25dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Md. Nazmul Hassan"
+        android:gravity="center"
+        android:background="@color/cardview_shadow_end_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="01741******"
+        android:gravity="center"
+        android:background="@color/cardview_shadow_end_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="nazmul15-1487@diu.edu.bd"
+        android:gravity="center"
+        android:background="@color/cardview_shadow_end_color"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Daffodil International University,Permanent Campus"
+        android:gravity="center"
+        android:background="@color/cardview_shadow_end_color"/>
+
+</LinearLayout>

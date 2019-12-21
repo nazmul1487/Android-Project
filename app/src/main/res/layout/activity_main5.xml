@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    android:weightSum="3">
+
+       <ScrollView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="429dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="139"
+                    android:gravity="center"
+                    android:text="Battle-of-Khaybar"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="25dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity=""
+                        android:layout_weight="250"
+                        android:src="@drawable/khaybar"
+                        android:layout_margin="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="429dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_weight="139"
+                        android:gravity="center"
+                        android:text="The Battle of Khaybar was fought in the year 628 between Muslims and the Jews living in the oasis of Khaybar, located 150 kilometers (93 mi) from Medina in the north-western part of the Arabian peninsula, in modern-day Saudi Arabia. According to Hagai Mazuz, “The Jewish community of northern Arabia was one of the largest ancient Jewish communities in the history of the Jewish people.” [4] For almost a thousand years Jews lived in the oases of Teyma, Khaybar, and Yathrib (later known as Medina), in the northern Arabian Peninsula. According to Muslim sources, the Muslim soldiers attacked the native Jews who had barricaded themselves in forts.[5]
+
+Muslim sources accuse Jews living in Khaybar of a plan to unite with other Jews from Banu Wadi Qurra, Taima', Fadak as well as Ghafataan Arab tribe to attack Madinah.[6] Scottish historian William Montgomery Watt notes the presence in Khaybar of the Banu Nadir, who were working with neighboring Arab tribes to protect themselves from the Islamic community in Medina who had earlier sent into exile the Jewish tribes for violating the terms of the Charter of Medina and for conspiring to kill Muhammad.[7][8][9] Italian orientalist Laura Veccia Vaglieri claims other motives might have included the prestige the engagement would confer upon Muhammad among his followers, as well the booty which could be used to supplement future campaigns.[10][11]
+
+The Jews of Khaybar finally surrendered after seeing no way out and were allowed to live in the oasis on the condition that they would give one-half of their produce to the Muslims. Jews continued to live in the oasis for several more years until they were expelled by caliph Umar. The imposition of tribute upon the conquered Jews served as a precedent for provisions in the Islamic law requiring the exaction of tribute known as jizya from Dhimmi subjects in areas under Muslim rule, and confiscation of land belonging to non-Muslims into the collective property of the Muslim community."
+                        android:textSize="15dp"
+                        android:textColor="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+       </ScrollView>
+
+</LinearLayout>
+

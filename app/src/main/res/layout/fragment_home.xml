@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="#DAF7A6" >
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp" >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:cardBackgroundColor="#FFFFFF"
+                    android:onClick="method_battle_badar"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="200">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="60"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_badar"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="#F7F7F7"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="139"
+                            android:layout_height="wrap_content"
+                            android:text="Battle-of-Badar"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_gravity="right|center"
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="method_battle_uhud"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="200">
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_weight="60"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_uhud"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="#F7F7F7"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="139"
+                            android:layout_height="wrap_content"
+                            android:text="Battle-of-Uhud"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_gravity="right|center"
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="method_battle_karbala"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="200">
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_weight="60"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_karbala"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="#F7F7F7"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="139"
+                            android:layout_height="wrap_content"
+                            android:text="Battle-of-Karbala"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_gravity="right|center"
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="method_battle_Khaybar"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="200">
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_weight="60"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_khaybar"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="#F7F7F7"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="139"
+                            android:layout_height="wrap_content"
+                            android:text="Battle-of-Khaybar"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_gravity="right|center"
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="method_battle_Yarmouk"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="200">
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_weight="60"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_yarmouk"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="#F7F7F7"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="139"
+                            android:layout_height="wrap_content"
+                            android:text="Battle-of-Yarmouk"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_gravity="right|center"
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="method_battle_Qadisiyyah"
+                    tools:ignore="OnClick">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="200">
+
+                        <ImageView
+                            android:layout_width="1dp"
+                            android:layout_weight="60"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_qadisiyyah"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:background="#F7F7F7"
+                            />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="139"
+                            android:layout_height="wrap_content"
+                            android:text="Battle-of-AL-Qadisiyyah"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_gravity="right|center"
+                            />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
